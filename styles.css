@@ -1,0 +1,171 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 10;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navigation */
+/* .navbar {
+  background-color: #333;
+  color: #c61c1c;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.navbar li {
+  margin: 0 10px;
+}
+
+.navbar a {
+  color: #130505;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.navbar a:hover {
+  background-color: #fff;
+  color: #333;
+} */
+header {
+    background-color: #0c0404;
+    color: #f0e7e7;
+    padding: 40px 0;
+  }
+  
+  .logo {
+    float: left;
+  }
+  
+  .navigation {
+    float: right;
+    list-style-type: none;
+  }
+  
+  .navigation li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  .navigation li a {
+    color: #e7e7ed;
+    text-decoration: none;
+  }
+  
+
+
+/* Home Page */
+/* .home-banner {
+  background-image: url('.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-banner h1 {
+  font-size: 40px;
+  color: #590b0b;
+  text-align: center;
+}
+
+.home-features {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.home-features .feature {
+  text-align: center;
+}
+
+.home-features .feature i {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.home-features .feature h3 {
+  font-size: 0px;
+  color: #333;
+} */
+.home-section{
+    height: 100vh;
+  background-image: url('https://t3.ftcdn.net/jpg/01/14/40/14/360_F_114401420_yN5sJ20f0wk8xuCLn6qBGS9gjEwvSZNG.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* About Page */
+/* .about-section {
+  margin-top: 100px;
+}
+
+.about-section h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  color: #555;
+  line-height: 1.5;
+} */
+
+/* Contact Page */
+.contact-form {
+  margin-top: 50px;
+}
+
+.contact-form label {
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #555;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
